@@ -1,12 +1,12 @@
 {
-  "name": "projetoselfa",
-  "homepage": "https://github.com/SelfaAtacado/projetoselfa",
+  "name": "criando-site-sefa",
+  "description": "",
+  "main": "index.js",
   "authors": [
     "jhony <jhony@selfaatacado.com>"
   ],
-  "description": "",
-  "main": "",
-  "license": "MIT",
+  "license": "ISC",
+  "homepage": "https://github.com/SelfaAtacado/projetoselfa",
   "private": true,
   "ignore": [
     "**/.*",
@@ -16,6 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "breakpoint-sass": "^2.7.1",
+    "font-awesome": "^4.7.0"
   }
 }

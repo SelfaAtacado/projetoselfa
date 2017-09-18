@@ -1,8 +1,280 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Selfa Atacado</title>
+	<meta charset="UTF-8">
+	<title>Selfa Atacado Compromisso de Qualidade</title>
+	<link rel="stylesheet" type="css/geral.css">
+	<link rel="stylesheet" type="plugins.css">
+	<script src="jquery.min.js"></script>
+	<script src="jquery-scrolltofixed-min.js"></script>
+
+	<style type="text/css">
+	body{margin:0; padding:0;}
+	html, body
+	{
+	_height: 100%;
+	_overflow: auto;
+	}
+       .content-center
+        {    
+        	position: relative;
+            width:108em;
+            height:160em;
+            background-color:#d9d6dd;
+            margin-left:auto;
+            margin-right:auto;
+            padding:0em;            
+         }
+         *{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  padding: 125px;
+   margin: auto;
+  background-repeat: no-repeat;	
+  position: static;
+  background: #fff;
+  margin: 50;
+  font-family: monospace;
+}
+h2 {
+  text-align: center;
+}
+a {color: #bdbdbd;}
+
+.container {
+  margin: 60px auto;
+  padding-bottom: 40%;
+  width: 100%;
+  overflow: hidden;
+  border: 0px solid #fff;
+  position: relative;
+  display:block;
+  margin: 0px auto 15px;
+  box-shadow: 0 10px 10px #777;
+}
+
+.photoWrapper {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+  top: 59px;
+  left: 0;
+}
+.photo {
+  height:all;
+  width:100%;
+}
+p.photoDescr {
+  background-color: #8e8e8e;
+  margin: 0;
+  padding: 0px;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+.photoWrapper:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.photoWrapper:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.photoWrapper:nth-child(3) {
+  animation-delay: 8s;
+}
+
+.photoWrapper:nth-child(4) {
+  animation-delay: 12s;
+}
+@media (max-width: 728px) {
+  .container {
+    width: 90%;
+    padding-bottom: 50%;
+  }
+}
+#topleft {
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#divBusca{
+  margin: auto;
+  z-index: 100;
+  position:fixed;
+  max-width: 100%;
+  top: 40px;
+  left: 1700px;
+  background-color:#FFF;
+  border:solid 0px #8e8e8e;
+  border-radius:10px;
+  width: 100px auto;
+  height:auto;
+
+
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:10px; 
+  font-size:18px;
+  border:none;
+  height:39px;
+  width:396px;
+}
+
+#btnBusca{
+  position: static;
+  float:left;
+  height:37px;
+  border-radius:0 8px 8px 0;
+  width:100px;
+  font-weight:bold,; 
+  background:#003f61;
+  color: #fff !important;
+}
+
+#divBusca img{
+  float:left;
+}
+#logoSuperior img{
+  margin-top:-125px;
+  z-index: 99;
+  position:fixed;
+  left:883px;
+
+}
+#menu
+{position: fixed;
+ z-index: 101;
+
+
+}
+#banner-produtos
+{ padding: 30px
+
+}
+
+
+	</style>
 	
 </head>
-<body>
+	<body>
+		<div id="divBusca">
+						  <img src="search3.png" alt=""/>
+						  <input type="text" id="txtBusca" placeholder="Pesquise no Site"/>
+						  <button id="btnBusca">Buscar</button>
+						</div>
+		<div class="content-center">
+		<div id="geral">
+			<div align="center">
+				<header>
+					<div id="logoSuperior">
+					<a><img src="images/banner-superior12.png"></a>
+					</div>
+					<nav>
+					<div id="menu">		
+					<a href="index.html" target="_self"><img src="images/botao-home222.png" align="top"></a><a href="http://www.selfaatacado.com.br/produtos/" target="_self"><img src="images/botao-produtos21.png" align="top"></a><a href="http://www.selfaatacado.com.br/noticias/" target="_self"><img src="images/botao-noticias1.png" align="top"></a><a href="http://www.selfaatacado.com.br/download-de-programas/" target="_self"><img src="images/botao-programas1.png" align="top"></a><a href="http://www.selfaatacado.com.br/quem-somos/" target="_self"><img src="images/botao-quem-somos.png" align="top"></a><a href="http://www.selfaatacado.com.br/trabalhe-conosco/" target="_self"><img src="images/botao-trabalhe-conosco.png" align="top">
+					</a>
+					</div>
+					<div class="container">
+						    <div class="photoWrapper">
+						        <img class='photo'  src="images/Banners_localização.jpg"  href="http://www.selfaatacado.com.br/produtos/">
+						    </div>
+						    <div class="photoWrapper">
+						        <img class='photo'  src="images/Compras.jpg" alt="" />
+						    </div>
+						    <div class="photoWrapper">
+						        <img class='photo'  src="images/Atendimento.jpg" alt="" />
+						    </div>
+						    <div class="photoWrapper">
+						        <img class='photo'  src="images/Selfa.jpg" alt="" />
+						    </div>
+				</div>
+					
+					</nav>	
+				</header>
+        	<main>
+					<nav>
+						<div id="banner-produtos">
+							<img src="images/banner-produtos.png" alt="">
+						</div>
+						<div class="produto">
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+						</div>
+						<div>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+						</div>
+						<div>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+							<a href="index.html">
+								<img src="images/produtos1.png" alt="">
+							</a>
+						</div>
+
+						<div>
+							<a href="http://www.selfaatacado.com.br/produtos/">
+								<img src="images/botao-ver-mais1.png" alt="">
+
+							</a>
+						</div>
+						<div class="slide">
+							<a href="index.html">
+								<img src="images/banner-rodape-informativo.png" alt="">
+							</a>
+						</div>
+					</nav>
+				</main>
+			<footer>
+				<div class="logofooter">
+					<a href="index.html">
+						<img src="images/banner-footer.png" alt="">
+					</a>
+				</div>
+			</footer>
+		</div>
+	</div>
+	 </div>
 </body>
 </html>
